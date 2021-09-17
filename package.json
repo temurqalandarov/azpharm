@@ -1,0 +1,27 @@
+{
+  "name": "az-pharm",
+  "version": "1.0.0",
+  "description": "AZ pharm ijtimoiy loyihasi uchun telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temurqalandarov/az-pharm.git"
+  },
+  "author": "Temur Qalandarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temurqalandarov/az-pharm/issues"
+  },
+  "homepage": "https://github.com/temurqalandarov/az-pharm#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6",
+    "telegraf": "^4.4.2",
+    "telegraf-i18n": "^6.6.0"
+  }
+}
