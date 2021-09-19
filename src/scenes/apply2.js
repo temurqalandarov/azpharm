@@ -16,7 +16,6 @@ module.exports = new BaseScene('apply2')
     })
     ctx.telegram.sendMessage(GROUP_ID, post(name, contact, location), { parse_mode: 'HTML' })
     ctx.reply(ctx.i18n.t('app.apply'), keyboard(ctx))
-    console.log('hello')
     return ctx.scene.leave()
   })
   .on('text', ctx => {
