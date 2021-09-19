@@ -6,5 +6,7 @@ module.exports = {
   URL: process.env.URL,
   ENVIRONMENT: process.env.ENVIRONMENT,
   DB_USER: process.env.DB_USER,
-  DB_PASS: process.env.DB_PASS
+  DB_PASS: process.env.DB_PASS,
+  GROUP_ID: process.env.GROUP_ID,
+  BOT_ID: process.env.BOT_ID
 }

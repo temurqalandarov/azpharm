@@ -1,8 +1,19 @@
 {
-  "lang": "O’zbek tili tanlandi",
-  "keyboard": "Murojaat yuborish",
-  "name":"Ismingizni kiriting",
-  "contact": "kontaktingizni jo'nating yoki telefon raqamingizni yozib yuboring",
-  "location": "Manzilingizni yuboring",
-  "apply": "Murojaatingiz qabul qilindi, tez orada bog'lanamiz. AZ pharmni tanlaganingizdan xursandmiz"
+  "keyboard": {
+    "apply": "📝Murojaat yuborish",
+    "feedback": "📞Qayta aloqa",
+    "lang": "⚙️Tilni o'zgartirish"
+  },
+  "lang": "🇺🇿O’zbek tili tanlandi",
+  "menu": "Bosh menyu",
+  "feedback": "✍️Izohingizni yozib qoldiring",
+  "pending": "Rahmat",
+  "app": {
+    "name": "Ismingizni kiriting",
+    "contact": "kontaktingizni jo'nating yoki telefon raqamingizni yozib yuboring",
+    "location": "Manzilingizni yuboring",
+    "apply": "Murojaatingiz qabul qilindi, tez orada bog'lanamiz. AZ pharmni tanlaganingizdan xursandmiz",
+    "contactLabel": "📲 Kontaktni yuborish",
+    "locationLabel": "📍 Lokatsiyani yuborish"
+  }
 }

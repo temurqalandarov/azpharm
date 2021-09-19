@@ -1,4 +1,6 @@
 require('./start')
 require('./lang')
 require('./apply')
+require('./feedback')
 require('./tolang')
+require('./on')

@@ -1,12 +1,10 @@
 const
-  { Markup } = require('telegraf'),
   bot = require('../core/bot'),
-  User = require('../models/user')
+  { match } = require('telegraf-i18n'),
+  button = require('../lib/button')
 
-bot.command('lang', ctx => {
-  return ctx.reply('Qaysi tilni tanlaysiz\n\nВыберите язык', Markup.inlineKeyboard([
-    Markup.button.callback('🇺🇿UZ', 'uz'),
-    Markup.button.callback('🇷🇺RU', 'ru')
-  ]))
+bot.hears(match('keyboard.lang'), ctx => {
+  return ctx.reply('Qaysi tilni tanlaysiz\n\nВыберите язык', button)
 })
+
 
