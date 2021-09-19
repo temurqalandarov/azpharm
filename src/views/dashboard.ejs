@@ -169,7 +169,7 @@
                 <td><%= apps.contact %> </td>
                 <td><a href=<%=apps.location%> target="_blank">Manzili</a></td>
                 <td>
-                  <%=new Date(apps.createdAt).toLocaleString('uz-UZ')%>
+                  <%=new Date(apps.createdAt).toLocaleString('uz-UZ',{ timeZone: 'Asia/Tashkent' })%>
                 </td>
               </tr>
               <% }) %>
