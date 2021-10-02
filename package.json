@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/temurqalandarov/az-pharm.git"
+    "url": "git+https://github.com/temurqalandarov/azpharm.git"
   },
   "author": "Temur Qalandarov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/temurqalandarov/az-pharm/issues"
+    "url": "https://github.com/temurqalandarov/azpharm/issues"
   },
-  "homepage": "https://github.com/temurqalandarov/az-pharm#readme",
+  "homepage": "https://github.com/temurqalandarov/azpharm#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
